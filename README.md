@@ -1,7 +1,7 @@
 # 鐘點大師 Swagger 文件撰寫模板
 
 ## 專案概述
-產品名稱：鐘點大師 Swagger 文件撰寫模板
+專案名稱：鐘點大師 Swagger 文件撰寫模板
 
 專案代號：doc-template
 
