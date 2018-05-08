@@ -20,7 +20,7 @@
 ### 基礎安裝
 1. 克隆源碼
 
-    > git clone https://gitlab.com/Hourmasters/doc-template.git
+    > git clone https://github.com/s950329/swagger-doc-template.git
 
 2. 安裝套件
 
@@ -33,7 +33,7 @@
 ### 整合至現有專案
 1. 克隆源碼
 
-    > git clone https://gitlab.com/Hourmasters/doc-template.git
+    > git clone https://github.com/s950329/swagger-doc-template.git
 
 2. 將 `package.json` 中的 `live-server` 套件及 `doc` 指令整合至現有專案的 `package.json`
 
