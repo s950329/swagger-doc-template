@@ -1,0 +1,58 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Hourmasters Service
+  license:
+    name: MIT
+servers:
+  - url: http://laravel.test/api/v1
+  - url: https://stage.hourmasters.com/api/v1
+  - url: https://www.hourmasters.com/api/v1
+paths:
+  /images:
+    post:
+      summary: 新增圖片
+      operationId: createImage
+      tags:
+        - images
+      parameters:
+        - 
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/Image"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ImageResponse"
+components:
+  schemas:
+    Image:
+      required:
+        - type
+        - image
+      properties:
+        type:
+          type: string
+        image:
+          type: string
+          format: binary
+    ImageResponse:
+      properties:
+        id:
+          type: integer
+        user_id:
+          type: integer
+        type:
+          type: string
+        path:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
