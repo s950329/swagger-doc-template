@@ -6,10 +6,10 @@
     </a>
 </p>
 
-# 鐘點大師 Swagger 文件撰寫模板
+# Swagger 文件模板
 
 ## 專案概述
-專案名稱：鐘點大師 Swagger 文件撰寫模板
+專案名稱：Swagger 文件模板
 
 專案代號：doc-template
 
