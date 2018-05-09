@@ -1,3 +1,11 @@
+<p align="center">
+    <b>Special thanks to the generous sponsorship by:</b>
+    <br><br>
+    <a href="https://www.hourmasters.com">
+      <img src="https://trello-attachments.s3.amazonaws.com/58a52a5cba3fdf7e02fe0b46/5a5ca9636a152015ebcddf8c/fd59154d52b5593b6082d96466694f73/slogan-01.png" width=350>
+    </a>
+</p>
+
 # 鐘點大師 Swagger 文件撰寫模板
 
 ## 專案概述
